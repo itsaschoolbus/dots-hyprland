@@ -6,7 +6,7 @@ Label {
     renderType: Text.NativeRendering
     verticalAlignment: Text.AlignVCenter
     property bool shouldUseRubik: /^\d+$/.test(root.text)
-    property var defaultFont: shouldUseRubik ? "Rubik" : Appearance.font.family.main
+    property var defaultFont: shouldUseRubik ? "IBM Plex Sans" : Appearance.font.family.main
     
     font {
         hintingPreference: Font.PreferDefaultHinting
